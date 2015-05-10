@@ -76,8 +76,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 " Search results counter
 Bundle 'IndexedSearch'
-" Node development plugin
-Bundle 'moll/vim-node'
 " Color Schemes
 Bundle 'flazz/vim-colorschemes'
 " Add buffer explorer
@@ -86,15 +84,14 @@ Bundle 'jlanzarotta/bufexplorer'
 Bundle 'scrooloose/syntastic'
 " Enable the javascript syntax
 Bundle 'pangloss/vim-javascript'
-" Add js-beautify
-Bundle 'maksimr/vim-jsbeautify'
-Bundle 'einars/js-beautify'
 " Grep code in Vim
 Bundle 'mileszs/ack.vim'
 " Airline 
 Bundle 'bling/vim-airline'
 " JSON syntax highlighting
 Bundle 'elzr/vim-json'
+" Python indentation
+Bundle 'hynek/vim-python-pep8-indent'
 
 " Disable concealing of double quotes
 let g:vim_json_syntax_conceal = 0
