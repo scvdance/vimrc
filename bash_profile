@@ -13,3 +13,5 @@ alias ls='ls -GFh'
 alias gs='git status'
 alias gb='git branch'
 
+# List processes listening to a TCP port: lsof -iTCP -sTCP:LISTEN
+
