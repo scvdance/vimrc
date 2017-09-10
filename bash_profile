@@ -12,6 +12,7 @@ export EDITOR=vim
 alias ls='ls -GFh'
 alias gs='git status'
 alias gb='git branch'
+alias pyHttp='python -m SimpleHTTPServer 8000'
 
 # List processes listening to a TCP port: lsof -iTCP -sTCP:LISTEN
 # List processes listening to a specific port: lsof -i :$PORT_NUMBER
